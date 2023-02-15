@@ -11,7 +11,7 @@ module.exports = {
     },
     mumbai: {
       url: POKT_MUMBAI_URL,
-      accounts: [`0x${MUMBAI_PRIVATE_KEY}`]
+      accounts: [MUMBAI_PRIVATE_KEY]
     }
   },
   etherscan: {
